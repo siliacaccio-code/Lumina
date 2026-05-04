@@ -79,7 +79,7 @@ const showData = {
             {
                 name: 'Francisco Goya',
                 works: [
-                    { name: 'El tres de mayo', image: "mayo.jpg" , desc: 'Goya dipinge il momento dell\'esecuzione del 3 maggio 1808, quando i soldati francesi fucilano i resistenti spagnoli. La luce accecante della lanterna illumina il volto del condannato, trasformandolo in un\'icona di martirio e eroismo. L\'opera è una condanna spietata della guerra e della violenza, con la luce che gioca un ruolo cruciale nella creazione dell\'impatto emotivo.' },
+                    { name: 'El tres de mayo', image: "mayovera.jpg" , desc: 'Goya dipinge il momento dell\'esecuzione del 3 maggio 1808, quando i soldati francesi fucilano i resistenti spagnoli. La luce accecante della lanterna illumina il volto del condannato, trasformandolo in un\'icona di martirio e eroismo. L\'opera è una condanna spietata della guerra e della violenza, con la luce che gioca un ruolo cruciale nella creazione dell\'impatto emotivo.' },
                     { name: 'Maja desnuda', image: "maya.jpg" , desc: 'Goya dipinge un nudo femminile che sfida le convenzioni dell\'arte tradizionale. La Maja è rappresentata in modo diretto e senza il velo mitologico, distesa su un divano. La luce naturale modella delicatamente il corpo, creando un\'opera che è sia sensuale che provocatoria, affermando l\'autonomia e la dignità della donna ritratta.' }
                 ]
             }
