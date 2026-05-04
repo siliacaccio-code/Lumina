@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMINA - Dai Maestri del Rinascimento all'Impressionismo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="title">LUMINA</h1>
+                <p class="subtitle">Dai Maestri del Rinascimento all'Impressionismo</p>
+                <p class="tagline">Un viaggio attraverso i secoli per scoprire come la luce ha plasmato l'arte.</p>
+                <p class="curators">A cura di Silia Cacciola e Marta Giordano</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Navigation Bar -->
+            <div class="nav-bar hidden" id="nav-bar">
+                <button class="btn-back" id="btn-back">Indietro</button>
+                <h2 id="nav-title">Titolo</h2>
+            </div>
+
+            <!-- Homepage View -->
+            <div id="homepage-view" class="view-container">
+                <!-- 4 Correnti Artistiche -->
+                <div class="periods-grid">
+                    <div class="period-card clickable" data-period="rinascimento">
+                        <h2>Rinascimento</h2>
+                        <p class="period-card-desc">Scopri i maestri della luce del Rinascimento</p>
+                    </div>
+                    <div class="period-card clickable" data-period="barocco">
+                        <h2>Barocco</h2>
+                        <p class="period-card-desc">L'arte del chiaroscuro e della drammaticità</p>
+                    </div>
+                    <div class="period-card clickable" data-period="romanticismo">
+                        <h2>Romanticismo</h2>
+                        <p class="period-card-desc">Emozione e libertà artistica</p>
+                    </div>
+                    <div class="period-card clickable" data-period="impressionismo">
+                        <h2>Impressionismo e oltre</h2>
+                        <p class="period-card-desc">La cattura del momento luminoso</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Periods Content View -->
+            <div id="period-view" class="view-container hidden">
+                <div id="period-content"></div>
+            </div>
+
+            <!-- Artist Content View -->
+            <div id="artist-view" class="view-container hidden">
+                <div id="artist-content"></div>
+            </div>
+
+            <!-- INFORMAZIONI -->
+            <section id="informazioni" class="info-section">
+                <h2>Informazioni</h2>
+                <div class="info-content">
+                    <div class="info-card">
+                        <h3>Data e Luogo</h3>
+                        <p><strong>Date:</strong> 26 Gennaio - 7 Luglio 2026</p>
+                        <p><strong>Luogo:</strong> Palazzo Pitti, Firenze</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>Orari di Apertura</h3>
+                        <p>Tutti i giorni dalle <strong>11:00 alle 19:00</strong></p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>Biglietti</h3>
+                        <ul class="price-list">
+                            <li>Bambini e Ragazzi (0-18 anni): <strong>Gratuito</strong></li>
+                            <li>Studenti Universitari: <strong>Gratuito</strong></li>
+                            <li>Adulti: <strong>15 euro</strong></li>
+                            <li>Biglietto con Guida: <strong>22 euro</strong></li>
+                        </ul>
+                    </div>
+
+                    <div class="info-card full-width">
+                        <h3>Prenota il Tuo Ingresso</h3>
+                        <p>Evita le code: prenota il tuo biglietto online</p>
+                        <button class="btn btn-prenota btn-large">Prenota Ora</button>
+                    </div>
+
+                    <div class="info-card full-width map-container">
+                        <h3>Ubicazione</h3>
+                        <p>Palazzo Pitti, Piazza Pitti, 1 - Firenze, Italia</p>
+                        <iframe width="100%" height="400" style="border: 1px solid var(--color-border); margin-top: var(--spacing-md); border-radius: 4px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2880.0486919234486!2d11.249372!3d43.76274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132a56a1f0e6b1ab%3A0x5c8e61a3a5b5e5c5!2sPalazzo%20Pitti!5e0!3m2!1sit!2sit!4v1234567890" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 LUMINA - Dai Maestri del Rinascimento all'Impressionismo</p>
+            <p>A cura di Silia Cacciola e Marta Giordano</p>
+        </div>
+    </footer>
+
+    <!-- Modal per Chiaroscuro -->
+    <div id="chiaroscuro-overlay" class="chiaroscuro-overlay hidden"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
