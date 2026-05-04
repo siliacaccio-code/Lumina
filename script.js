@@ -234,7 +234,7 @@ function showArtistView(period, artistName) {
     let html = '<div class="artists-grid">';
     artist.works.forEach(work => {
         const isChiaroscuro = work.chiaroscuro ? 'chiaroscuro-work' : '';
-        const imageHtml = work.image ? `<img src="images/${work.image}" alt="${work.name}" class="work-image">` : '';
+        const imageHtml = work.image ? `<img src="${work.image}" alt="${work.name}" class="work-image">` : '';
         html += `
             <div class="artist-card">
                 <div class="work-item ${isChiaroscuro}">
